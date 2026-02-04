@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-retro-cream text-slate-900 antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-slate-900;
+  }
+}
+
+/* Custom Scrollbar - Retro Style */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fdfbf7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DC143C;
+  /* Retro Red */
+  border: 2px solid #fdfbf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b91032;
+}
+
+
+@layer components {
+  .btn-retro {
+    @apply px-8 py-3 bg-retro-red text-retro-cream font-bold uppercase tracking-widest transition-all duration-300 hover:bg-slate-900 hover:scale-105 shadow-lg;
+  }
+}
+
+@layer utilities {
+  .text-outline-red {
+    -webkit-text-stroke: 2px #DC143C;
+    color: transparent;
+  }
+
+  .stroke-text-white {
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.3);
+    /* Subtle white outline */
+    color: transparent;
+  }
+}
