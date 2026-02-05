@@ -169,6 +169,28 @@ export const data = [
     },
     {
         id: "08",
+        title: "Threadly-Landing",
+        category: "Marketing Website",
+        tagline: "From Clutter to Curation.",
+        desc: "A high-impact landing page designed to introduce Threadly, communicate its core value proposition, and convert visitors into users through a focused, minimal interface.",
+        challenge: "Presenting the product’s concept clearly within seconds while balancing aesthetics, performance, and conversion-focused design.",
+        solution: "Designed and built a responsive landing experience with clear visual hierarchy, motion-enhanced sections, and concise messaging to guide users from discovery to action.",
+        tech: [<FaReact />, <RiTailwindCssFill />, <SiVite />,"gsap"],
+        images: {
+            hero: "https://res.cloudinary.com/dax0gizdq/image/upload/v1770307896/Screenshot_30_lpnwpz.png",
+            secondary: [
+                "https://res.cloudinary.com/dax0gizdq/image/upload/v1770307896/Screenshot_32_my4vnh.png",
+                "https://res.cloudinary.com/dax0gizdq/image/upload/v1770307897/Screenshot_31_wucyqx.png"
+            ]
+        },
+        link: "https://threadlyy.vercel.app/",
+        github: "https://github.com/ShigivahanA/Threadly-landing",
+        client: "Personal Project",
+        role: "Developer",
+        year: "2026"
+    },
+    {
+        id: "09",
         title: "Web Scraping Engine",
         category: "Automation",
         tagline: "Reliable Data Extraction at Scale.",
@@ -186,12 +208,12 @@ export const data = [
         link: "",
         github: "https://github.com/ShigivahanA/MEDIUMWEBSCRAPPING",
         client: "Freelance",
-        role: "Full Stack Dev",
+        role: "Python Dev",
         year: "2023"
     },
 
     {
-        id: "09",
+        id: "10",
         title: "Speech Analytics",
         category: "NLP",
         tagline: "Voice to Insight.",
@@ -208,8 +230,8 @@ export const data = [
         },
         link: "",
         github: "",
-        client: "Hackathon",
-        role: "Full Stack Dev",
+        client: "Freelance",
+        role: "Python Dev",
         year: "2023"
     },
 ];
